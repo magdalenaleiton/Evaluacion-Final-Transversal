@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1395EF4F-4657-9B95-B336-CBF24B975ACA" name="REGION">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>89F6E844-0B96-981D-79A4-87F0B6924A79</generatorID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_region" id="2FE029BE-05F4-729F-AA9A-D5C277E3D3B1">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>0630D518-BFCA-03A6-F84E-E7650814E8A1</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_region" id="653B23C8-C9F0-6AA1-1B93-A6A5303A2540">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>A4A739C1-6605-45AB-9425-CB730179A395</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76ABC4CF-D13A-1B3E-4F37-CCC168D9DA18" name="REGION_PK">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>E2870D83-84AA-DFA2-D709-5D266C14113F</generatorID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FE029BE-05F4-729F-AA9A-D5C277E3D3B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

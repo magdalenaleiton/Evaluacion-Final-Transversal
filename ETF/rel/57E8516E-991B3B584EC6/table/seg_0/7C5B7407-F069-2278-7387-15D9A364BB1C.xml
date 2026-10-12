@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C5B7407-F069-2278-7387-15D9A364BB1C" name="ESCUELA_FUTBOL">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>CE7DA9E7-3C1D-FB4B-6C2C-12A0EF36A2BE</generatorID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_escuela" id="ECE81EA9-B6B2-F9DD-AC10-FB04A1109B5D">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>D3F7B8F7-4A7D-6A15-A047-24B4189B076D</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_escuela" id="57B6D1BF-F41A-6546-8CF6-D3E0512380BF">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>7D17CCBA-FA20-BFE5-5314-6EF0934D517B</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacidad" id="9D43AB11-45B4-52B0-B035-E101E110AF08">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>09659617-7A93-6CA2-5475-3EE4B8C1999A</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fundacion" id="C27F8410-132B-E4E5-D8C9-D09F0F47400A">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>31757FFB-0DA4-0876-3723-2A25129F4466</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6370B89-8513-D9B1-DAD6-D0D0B03D62AD" name="ESCUELA_FUTBOL_PK">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>A8CAD772-1FDB-0597-25BA-97DFA21DC3A8</generatorID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECE81EA9-B6B2-F9DD-AC10-FB04A1109B5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

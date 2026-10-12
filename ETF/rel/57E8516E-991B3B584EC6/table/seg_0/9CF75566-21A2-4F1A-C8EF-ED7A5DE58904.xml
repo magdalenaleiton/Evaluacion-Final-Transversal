@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CF75566-21A2-4F1A-C8EF-ED7A5DE58904" name="PERSONAL_PLANTA">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>A2C28625-BA4C-26B7-498D-7DF2B835419D</generatorID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_trabajador" id="6DE73FE3-7C1B-43AA-F064-B73CC9F903F7">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>EC650BD5-D510-86AF-DCBA-4E65E10A1D0D</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DFC87E33-4001-1B3E-E0CF-7FCEFCA4CD36" referredColumn="F357AD02-7720-52BC-E027-0AE41549F2D0"/>
+</associations>
+</Column>
+<Column name="cod_trabajador1" id="DD9DED94-3D6C-07A3-FFD7-104EBA5E6351">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>C48EED91-2A1F-DAA1-5640-7E2072E3A977</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad_horas" id="A71F2E67-9FE1-94AF-A802-D7FC9070A34C">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>3A7A6384-ADEF-11EB-B044-AD85B1D0B5DD</generatorID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_horas_extras" id="988660B8-C92F-DF35-E42D-7DC4D529EFCA">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>F2C1F424-B61D-2221-FB2A-DD59A8C1A957</generatorID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E921F334-7051-7AD9-E975-F46F4C7F3BF9" name="PERSONAL_PLANTA_PK">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>43228C5A-0776-CA54-318F-4B72621FD352</generatorID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DE73FE3-7C1B-43AA-F064-B73CC9F903F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2A7CDE36-655D-61FA-28BF-B93581A08FEC" name="PERSONAL_PLANTA_TRABAJADOR_FK">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>CE7BA349-8576-E815-2F64-5CFEB757126F</generatorID>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DE73FE3-7C1B-43AA-F064-B73CC9F903F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1AE25C82-1556-DDDF-83FC-F79C058B2A89" name="JUGADOR_IDIOMA">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>67DBD22A-7283-0CEC-D7E0-7D41179320CD</generatorID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_tranajador" id="0AAFE604-C705-7A4B-2EAB-CAC307255706">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>A9032C31-B406-85BD-C34A-B0DD7493491A</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_idioma" id="30A71DE3-583D-4BCB-E084-802B0D53E1EA">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>ED1BC61D-A00E-8B49-238F-095139D6A9B7</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivel_dominio" id="F5EF2957-BCD3-8173-624D-2B4A0F23BD25">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>5E5AB7D5-2ADF-DEF8-8C52-06C99E46E44D</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JUGADOR_cod_trabajador" id="EA7969D2-296F-546F-E920-7B939480496C">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>9F13FC0F-143C-9018-81D8-903AF64C248A</generatorID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="082E6F3F-7B9C-9D97-D2C8-02BD88721166" referredColumn="09C36D7A-46A5-B4C0-A762-30A031D7228C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFC15BB9-085B-B320-2F69-FF6426D17AC2" name="JUGADOR_IDIOMA_PK">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>EAF74CD5-5C6A-62DB-A332-64B584C96FA5</generatorID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AAFE604-C705-7A4B-2EAB-CAC307255706"/>
+<colUsage columnID="30A71DE3-583D-4BCB-E084-802B0D53E1EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03E9EB8B-1FBB-32BB-224A-39F6F29CA5DF" name="JUGADOR_IDIOMA_JUGADOR_FK">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>7DD51B75-2D68-85C7-A894-11C827101061</generatorID>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA7969D2-296F-546F-E920-7B939480496C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

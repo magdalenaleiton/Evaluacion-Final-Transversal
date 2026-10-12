@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C9B7356-3AAA-2EEA-F4D1-491B80964445" name="HISTORIAL_CLUB">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>D680918F-79BA-73DF-06B1-24BFFB5F4070</generatorID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_trabajador" id="6C32C70E-9862-778A-6C85-9837B39CCA82">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>030590B5-BB0F-E510-A9BF-DDB6AE4CD768</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_clib" id="9F7E3A4F-A5D8-3C0E-CF75-F1F004DCAFB2">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>01C7A0E9-7E6E-F414-C3BC-0884D7C6BD6B</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="2AE21311-8BBE-CB85-9738-B7B50740D39F">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>C77B865B-3D35-147B-BA34-20047AE11380</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fin" id="A54D49B4-FC8F-0ADB-3185-7B353B9FFBCC">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>90CC8033-1A27-004C-A71E-8C906E916EF9</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JUGADOR_cod_trabajador" id="D81D3F19-159B-49CB-E3D9-706110EAE38E">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>62EA0ECB-5353-E849-96AD-E624C4867E51</generatorID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22C4D517-906F-40E2-C5A5-EFB4E13B81B0" referredColumn="09C36D7A-46A5-B4C0-A762-30A031D7228C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6249FB42-4BE7-2AA0-57FF-05DA3AA46B70" name="HISTORIAL_CLUB_PK">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>45ABF815-0D6B-3542-A58A-2072B093A75B</generatorID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C32C70E-9862-778A-6C85-9837B39CCA82"/>
+<colUsage columnID="9F7E3A4F-A5D8-3C0E-CF75-F1F004DCAFB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C2763A9-42EE-2811-0367-1061D659CC54" name="HISTORIAL_CLUB_JUGADOR_FK">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>24337A0A-1DDD-13DC-1873-81AD2B820807</generatorID>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D81D3F19-159B-49CB-E3D9-706110EAE38E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

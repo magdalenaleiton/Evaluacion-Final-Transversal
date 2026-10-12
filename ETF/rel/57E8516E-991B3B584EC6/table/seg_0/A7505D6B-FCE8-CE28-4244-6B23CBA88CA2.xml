@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7505D6B-FCE8-CE28-4244-6B23CBA88CA2" name="CLUB_FUTBOL">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>8F87914C-D028-3B14-42C4-2710C798E67E</generatorID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_club" id="BE28F442-1C72-E76E-390E-DEC0CD31B742">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>D4C183D3-A66E-DCAD-D542-91FE2ABF0DE7</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_club" id="4365FC04-7F4B-DD5F-A48E-57C6A4046275">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>DD4E9BC9-F8F2-5544-0607-E76716DFE22C</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="patrimonio" id="DFEF1DE0-731E-6434-93C5-93BEBD1C5562">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>82C97686-24D4-9544-7FF7-AD054C02FF73</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,14,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="91C0B89F-2A77-B3F9-8A77-FABF4FBD934A">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>40BDDA93-FACF-5472-5CEB-AA9FA6083AFE</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASOCIACION_cod_asociacion" id="FCE3D9C7-422F-D7E2-BDF8-6EBB329FB8F9">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>ECD64B77-D767-5822-8F8E-80CC128F9BD9</generatorID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64367D73-344E-58E7-63AD-4DC6E86E8500" referredColumn="17C167E4-385D-9669-C230-BE632D1E357E"/>
+</associations>
+</Column>
+<Column name="HISTORIAL_CLUB_cod_trabajador" id="D66CE989-76E7-1DCC-95BF-216F647B1863">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>7ABA10CD-EB0C-F2DF-3BE4-8DB75A2F6A1C</generatorID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0AD9862-5B41-6ECF-8350-A379217D077F" referredColumn="6C32C70E-9862-778A-6C85-9837B39CCA82"/>
+</associations>
+</Column>
+<Column name="HISTORIAL_CLUB_cod_clib" id="340506BA-1216-F470-6AC1-40388DE4C239">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>77B9A7CD-DDAB-B96C-AAB6-012052987A2A</generatorID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0AD9862-5B41-6ECF-8350-A379217D077F" referredColumn="9F7E3A4F-A5D8-3C0E-CF75-F1F004DCAFB2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A16740B3-BBFA-B0E0-D680-F06D46553372" name="CLUB_FUTBOL_PK">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>AC629D82-8595-D1F5-1A4F-5810F4D7CDAD</generatorID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE28F442-1C72-E76E-390E-DEC0CD31B742"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0781DC10-8D6E-E792-4E97-7AEEC697CDB7" name="CLUB_FUTBOL_HISTORIAL_CLUB_FK">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>3E3EB9C9-AC1D-718A-41BF-F0574B4C32DF</generatorID>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D66CE989-76E7-1DCC-95BF-216F647B1863"/>
+<colUsage columnID="340506BA-1216-F470-6AC1-40388DE4C239"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2FE89FA-82FA-F61C-2EFD-01D222AE7E91" name="CLUB_FUTBOL_ASOCIACION_FK">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>743B4D70-2E50-B7B8-EB58-CE3204434C0C</generatorID>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCE3D9C7-422F-D7E2-BDF8-6EBB329FB8F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

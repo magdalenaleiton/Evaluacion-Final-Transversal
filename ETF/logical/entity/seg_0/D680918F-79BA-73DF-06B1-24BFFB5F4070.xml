@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D680918F-79BA-73DF-06B1-24BFFB5F4070" name="HISTORIAL_CLUB">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 00:55:08 UTC</createdTime>
+<engineerTo>
+<item key="57E8516E-1358-8AE6-E136-991B3B584EC6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_trabajador" id="030590B5-BB0F-E510-A9BF-DDB6AE4CD768">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 00:55:15 UTC</createdTime>
+<engineerTo>
+<item key="57E8516E-1358-8AE6-E136-991B3B584EC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_clib" id="01C7A0E9-7E6E-F414-C3BC-0884D7C6BD6B">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 00:55:35 UTC</createdTime>
+<engineerTo>
+<item key="57E8516E-1358-8AE6-E136-991B3B584EC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_inicio" id="C77B865B-3D35-147B-BA34-20047AE11380">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 00:55:49 UTC</createdTime>
+<engineerTo>
+<item key="57E8516E-1358-8AE6-E136-991B3B584EC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_fin" id="90CC8033-1A27-004C-A71E-8C906E916EF9">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 00:56:11 UTC</createdTime>
+<engineerTo>
+<item key="57E8516E-1358-8AE6-E136-991B3B584EC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_trabajador1" id="62EA0ECB-5353-E849-96AD-E624C4867E51">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 00:57:21 UTC</createdTime>
+<generatorID>24337A0A-1DDD-13DC-1873-81AD2B820807</generatorID>
+<engineerTo>
+<item key="57E8516E-1358-8AE6-E136-991B3B584EC6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EC650BD5-D510-86AF-DCBA-4E65E10A1D0D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45ABF815-0D6B-3542-A58A-2072B093A75B" name="HISTORIAL_CLUB PK">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 00:55:33 UTC</createdTime>
+<engineerTo>
+<item key="57E8516E-1358-8AE6-E136-991B3B584EC6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>030590B5-BB0F-E510-A9BF-DDB6AE4CD768</attributeRef>
+<attributeRef>01C7A0E9-7E6E-F414-C3BC-0884D7C6BD6B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

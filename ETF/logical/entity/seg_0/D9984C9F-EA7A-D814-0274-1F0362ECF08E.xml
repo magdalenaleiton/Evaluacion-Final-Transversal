@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D9984C9F-EA7A-D814-0274-1F0362ECF08E" name="IDIOMA">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 00:24:19 UTC</createdTime>
+<engineerTo>
+<item key="57E8516E-1358-8AE6-E136-991B3B584EC6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_idioma" id="57C8961F-E6CE-3EBB-EBE8-F4A0A2251D4C">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 00:24:24 UTC</createdTime>
+<engineerTo>
+<item key="57E8516E-1358-8AE6-E136-991B3B584EC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_idioma" id="A30F5B91-7CA3-451B-E800-3332DE9AB793">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 00:24:50 UTC</createdTime>
+<engineerTo>
+<item key="57E8516E-1358-8AE6-E136-991B3B584EC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_tranajador" id="FD4C0C28-670E-B15C-05C9-042ABBC0DFA7">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 00:45:22 UTC</createdTime>
+<generatorID>E424EDFC-D988-4087-B51E-863BE99AA3B3</generatorID>
+<engineerTo>
+<item key="57E8516E-1358-8AE6-E136-991B3B584EC6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A9032C31-B406-85BD-C34A-B0DD7493491A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_idioma1" id="C08F4B37-073E-B3C2-6D37-DD3A6C3F8A19">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 00:45:22 UTC</createdTime>
+<generatorID>E424EDFC-D988-4087-B51E-863BE99AA3B3</generatorID>
+<engineerTo>
+<item key="57E8516E-1358-8AE6-E136-991B3B584EC6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>ED1BC61D-A00E-8B49-238F-095139D6A9B7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="19A070DB-270F-F72D-7FD7-F7D06B63097D" name="IDIOMA PK">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 00:24:37 UTC</createdTime>
+<engineerTo>
+<item key="57E8516E-1358-8AE6-E136-991B3B584EC6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>57C8961F-E6CE-3EBB-EBE8-F4A0A2251D4C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

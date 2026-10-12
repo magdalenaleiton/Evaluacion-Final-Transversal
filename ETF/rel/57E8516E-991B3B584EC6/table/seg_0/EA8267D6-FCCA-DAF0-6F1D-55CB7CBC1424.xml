@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA8267D6-FCCA-DAF0-6F1D-55CB7CBC1424" name="NACIONALIDAD">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>72DE1B5D-9D1F-3038-047C-EE702DADAFA6</generatorID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_nacionalidad" id="B23753A6-37F9-F9FC-B5D5-919891B7BDBE">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>C203B39D-B8F6-9B2A-994C-CB3F8C1170F5</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_nacionalidad" id="740CD612-AFF9-E18D-6C91-42797059DF6B">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>908E9B7D-8745-27F3-EBA7-8AFFFBF24691</generatorID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRABAJADOR_cod_trabajador" id="83AA7F0D-9510-5029-A4EE-07C3CA222221">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>017DD6C3-2007-B940-F467-5E2F4050C49A</generatorID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4204D8F0-94FD-9D7C-022C-D2C681CD20FF" referredColumn="F357AD02-7720-52BC-E027-0AE41549F2D0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0FED70DC-604B-0300-FE80-BE570E5C2FFD" name="NACIONALIDAD_PK">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>E0313164-D88B-298A-E728-86ED5AEC1B4A</generatorID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B23753A6-37F9-F9FC-B5D5-919891B7BDBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DBCF0EE-6240-5503-13B7-7DA2297E7CC9" name="NACIONALIDAD_TRABAJADOR_FK">
+<createdBy>Magdalena</createdBy>
+<createdTime>2026-10-11 18:07:15 UTC</createdTime>
+<generatorID>0C6E1C0B-ED77-C781-9E1C-2F9895E276BD</generatorID>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83AA7F0D-9510-5029-A4EE-07C3CA222221"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
